@@ -1,0 +1,23 @@
+@font-face{
+   
+    src: url(./assets/fonts/Farsi-Digits/Sahel-Light-FD.ttf) format("ttf"),url(./assets/fonts/Farsi-Digits/Sahel-Light-FD.woff) format("woff"),url(./assets/fonts/Farsi-Digits/Sahel-Light-FD.eot) format("eot");
+    font-family:'Sahel';
+    font-weight: 400;
+}
+@font-face {
+    font-family:'Sahel';
+    src: url(./assets/fonts/Farsi-Digits/Sahel-SemiBold-FD.ttf) format("ttf"),url(./assets/fonts/Farsi-Digits/Sahel-SemiBold-FD.woff) format("woff"),url(./assets/fonts/Farsi-Digits/Sahel-SemiBold-FD.eot) format("eot");
+    font-weight: 500;
+}
+@font-face {
+    font-family:'Sahel';
+    src: url(./assets/fonts/Farsi-Digits/Sahel-Bold-FD.ttf) format("ttf"),url(./assets/fonts/Farsi-Digits/Sahel-Bold-FD.woff) format("woff"),url(./assets/fonts/Farsi-Digits/Sahel-Bold-FD.eot) format("eot");
+    font-weight: 600;
+}
+*{
+    font-family: 'Sahel' !important;  
+}
+body {
+font-family: 'Sahel' !important;
+direction: rtl;
+}
